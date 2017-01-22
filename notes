@@ -1,0 +1,5 @@
+C-' : select region -- then ' to expand, - to contract, 0 to reset
+M-; : comment selected region
+C-M-h : select block (e.g. function)
+
+M-g M-g : goto line

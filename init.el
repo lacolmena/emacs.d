@@ -149,7 +149,7 @@
 (setq ns-right-alternate-modifier (quote none))
 
 ;; Expand region
-(global-set-key (kbd "C-;") 'er/expand-region)
+(global-set-key (kbd "C-'") 'er/expand-region)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -159,7 +159,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (expand-region neotree nodejs-repl tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
+    (rjsx-mode jsx-mode expand-region neotree nodejs-repl tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
