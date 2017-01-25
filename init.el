@@ -155,6 +155,9 @@
 ;; Expand region
 (global-set-key (kbd "C-'") 'er/expand-region)
 
+(global-set-key (kbd "C-M-s") 'isearch-forward-regexp)
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
