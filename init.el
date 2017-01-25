@@ -155,8 +155,11 @@
 ;; Expand region
 (global-set-key (kbd "C-'") 'er/expand-region)
 
+;; Regexp search
 (global-set-key (kbd "C-M-s") 'isearch-forward-regexp)
 
+;; Slow down mouse wheel
+(setq mouse-wheel-progressive-speed nil)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
