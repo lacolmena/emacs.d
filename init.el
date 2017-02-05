@@ -143,7 +143,7 @@
 
 ;;(load-theme 'kooten t)
 
-(load-theme 'yoshi t)
+;;(load-theme 'yoshi t)
 
 ;;Node repl
 (require 'nodejs-repl)
@@ -161,6 +161,10 @@
 ;; Slow down mouse wheel
 (setq mouse-wheel-progressive-speed nil)
 
+;; Start in fullscreen
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(tool-bar-mode -1)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -169,7 +173,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (evil yoshi-theme zweilight-theme kooten-theme rjsx-mode jsx-mode expand-region neotree nodejs-repl tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
+    (cyberpunk-theme evil yoshi-theme zweilight-theme kooten-theme rjsx-mode jsx-mode expand-region neotree nodejs-repl tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
