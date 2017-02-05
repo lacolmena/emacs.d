@@ -155,6 +155,8 @@
 ;; Expand region
 (global-set-key (kbd "C-'") 'er/expand-region)
 
+(global-set-key (kbd "C-S-f") 'helm-ag)
+
 ;; Regexp search
 ;;(global-set-key (kbd "C-M-s") 'isearch-forward-regexp)
 
@@ -173,7 +175,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (cyberpunk-theme evil yoshi-theme zweilight-theme kooten-theme rjsx-mode jsx-mode expand-region neotree nodejs-repl tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
+    (helm-ag cyberpunk-theme evil yoshi-theme zweilight-theme kooten-theme rjsx-mode jsx-mode expand-region neotree nodejs-repl tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
